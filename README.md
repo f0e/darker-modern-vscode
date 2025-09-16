@@ -4,7 +4,7 @@ A VSCode theme that's just the default Dark Modern theme but darker, and less sa
 
 Built using [vscode-theme-editor](https://github.com/f0e/vscode-theme-editor).
 
-![screenshot](https://github.com/user-attachments/assets/e42e1175-3b3a-4677-85e9-3471f3e18b93)
+![screenshot](https://github.com/user-attachments/assets/5404a17e-b847-4fea-98ba-959fe8c50712)
 
 ---
 

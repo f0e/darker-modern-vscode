@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.1.3
+
+- Fix transparent background in README screenshot
+
 ## 0.1.2
 
 - Fix images stretching in README
