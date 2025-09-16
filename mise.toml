@@ -7,12 +7,12 @@ pnpm = "latest"
 run = "mise generate git-pre-commit --write --task=build"
 
 [tasks.build]
-run = """
-./build.sh
-"""
+run = "./build.sh"
+
+[tasks.package]
+depends = "build"
+run = "vsce package"
 
 [tasks.publish]
 depends = ["build"]
-run = """
-vsce publish
-"""
+run = "vsce publish"
