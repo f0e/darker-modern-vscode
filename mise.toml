@@ -1,5 +1,6 @@
 [tools]
 node = "latest"
+"npm:@vscode/vsce" = "latest"
 pnpm = "latest"
 
 [tasks.setup]
@@ -8,4 +9,10 @@ run = "mise generate git-pre-commit --write --task=build"
 [tasks.build]
 run = """
 ./build.sh
+"""
+
+[tasks.publish]
+depends = ["build"]
+run = """
+vsce publish
 """

@@ -1,8 +1,9 @@
 {
-  "name": "darker-modern",
+  "name": "tek-darker-modern",
   "displayName": "Darker Modern",
   "description": "A darker version of VSCode's default Dark Modern theme.",
   "version": "0.0.1",
+  "publisher": "tek",
   "engines": {
     "vscode": "^1.104.0"
   },
