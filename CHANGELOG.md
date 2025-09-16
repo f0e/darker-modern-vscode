@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.1.2
+
+- Fix images stretching in README
+
 ## 0.1.1
 
 - Actually publish README
