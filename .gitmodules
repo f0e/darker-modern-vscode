@@ -1,0 +1,3 @@
+[submodule "theme-editor"]
+	path = theme-editor
+	url = git@github.com:f0e/vscode-theme-editor.git

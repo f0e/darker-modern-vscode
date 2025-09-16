@@ -1,0 +1,11 @@
+[tools]
+node = "latest"
+pnpm = "latest"
+
+[tasks.setup]
+run = "mise generate git-pre-commit --write --task=build"
+
+[tasks.build]
+run = """
+./build.sh
+"""
